@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-11T23:03:24 IST" name="Loan Department" finished-at="2024-06-11T23:03:24 IST" duration-ms="156">
+    <groups>
+    </groups>
+    <test started-at="2024-06-11T23:03:24 IST" name="Business loan" finished-at="2024-06-11T23:03:24 IST" duration-ms="50">
+      <class name="test.Business_Loan">
+        <test-method signature="APIBusinessLoanLogin()[pri:0, instance:test.Business_Loan@3427b02d]" started-at="2024-06-11T23:03:24 IST" name="APIBusinessLoanLogin" finished-at="2024-06-11T23:03:24 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIBusinessLoanLogin -->
+        <test-method signature="MobileBusinessLoanLogin()[pri:0, instance:test.Business_Loan@3427b02d]" started-at="2024-06-11T23:03:24 IST" name="MobileBusinessLoanLogin" finished-at="2024-06-11T23:03:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileBusinessLoanLogin -->
+        <test-method signature="WebBusinessLoanLogin()[pri:0, instance:test.Business_Loan@3427b02d]" started-at="2024-06-11T23:03:24 IST" name="WebBusinessLoanLogin" finished-at="2024-06-11T23:03:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebBusinessLoanLogin -->
+      </class> <!-- test.Business_Loan -->
+    </test> <!-- Business loan -->
+    <test started-at="2024-06-11T23:03:24 IST" name="Home Loan" finished-at="2024-06-11T23:03:24 IST" duration-ms="10">
+      <class name="test.Home_Loan">
+        <test-method signature="APIHomeLoanLogin()[pri:0, instance:test.Home_Loan@6c64cb25]" started-at="2024-06-11T23:03:24 IST" name="APIHomeLoanLogin" finished-at="2024-06-11T23:03:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIHomeLoanLogin -->
+        <test-method signature="MobileHomeLoanLogin()[pri:0, instance:test.Home_Loan@6c64cb25]" started-at="2024-06-11T23:03:24 IST" name="MobileHomeLoanLogin" finished-at="2024-06-11T23:03:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileHomeLoanLogin -->
+        <test-method signature="WebHomeLoanLogin()[pri:0, instance:test.Home_Loan@6c64cb25]" started-at="2024-06-11T23:03:24 IST" name="WebHomeLoanLogin" finished-at="2024-06-11T23:03:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebHomeLoanLogin -->
+      </class> <!-- test.Home_Loan -->
+    </test> <!-- Home Loan -->
+    <test started-at="2024-06-11T23:03:24 IST" name="Personal loan" finished-at="2024-06-11T23:03:24 IST" duration-ms="9">
+      <class name="test.Personal_Loan">
+        <test-method signature="APIPersonalLoanLogin()[pri:0, instance:test.Personal_Loan@35cabb2a]" started-at="2024-06-11T23:03:24 IST" name="APIPersonalLoanLogin" finished-at="2024-06-11T23:03:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIPersonalLoanLogin -->
+        <test-method signature="MobilePersonalLoanLogin()[pri:0, instance:test.Personal_Loan@35cabb2a]" started-at="2024-06-11T23:03:24 IST" name="MobilePersonalLoanLogin" finished-at="2024-06-11T23:03:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilePersonalLoanLogin -->
+        <test-method signature="WebPersonalLoanLogin()[pri:0, instance:test.Personal_Loan@35cabb2a]" started-at="2024-06-11T23:03:24 IST" name="WebPersonalLoanLogin" finished-at="2024-06-11T23:03:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebPersonalLoanLogin -->
+      </class> <!-- test.Personal_Loan -->
+    </test> <!-- Personal loan -->
+    <test started-at="2024-06-11T23:03:24 IST" name="Car loan" finished-at="2024-06-11T23:03:24 IST" duration-ms="12">
+      <class name="test.Car_Loan">
+        <test-method signature="APICarLoanLogin()[pri:0, instance:test.Car_Loan@3febb011]" started-at="2024-06-11T23:03:24 IST" name="APICarLoanLogin" finished-at="2024-06-11T23:03:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APICarLoanLogin -->
+        <test-method signature="MobileCarLoanLogin()[pri:0, instance:test.Car_Loan@3febb011]" started-at="2024-06-11T23:03:24 IST" name="MobileCarLoanLogin" finished-at="2024-06-11T23:03:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileCarLoanLogin -->
+        <test-method signature="WebCarLoanLogin(java.lang.String)[pri:0, instance:test.Car_Loan@3febb011]" started-at="2024-06-11T23:03:24 IST" name="WebCarLoanLogin" finished-at="2024-06-11T23:03:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[flipcart.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebCarLoanLogin -->
+      </class> <!-- test.Car_Loan -->
+    </test> <!-- Car loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
