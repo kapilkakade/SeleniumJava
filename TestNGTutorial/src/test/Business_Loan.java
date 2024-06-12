@@ -6,7 +6,7 @@ public class Business_Loan {
 	
 	@Test
 	public void WebBusinessLoanLogin() {
-		System.out.println("This isa  Web login for Business Loan");		
+		System.out.println("This is Web login for Business Loan");		
 	}
 	
 	@Test

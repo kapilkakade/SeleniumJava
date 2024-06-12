@@ -11,6 +11,7 @@
  
  <test name="Home Loan">
 	 <parameter name="URL" value="amazon.in"/> 
+	 <parameter name="username" value="abcd.pqrs@xyz.com"/> 
 	 <classes>
 		 <class name="test.Home_Loan"/>
 	 </classes>
