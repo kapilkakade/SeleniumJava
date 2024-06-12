@@ -11,7 +11,6 @@ public class Home_Loan {
 		System.out.println("This is Web login for Home Loan");	
 		System.out.println(url);
 		System.out.println(username);
-
 	}
 	
 	@Test
