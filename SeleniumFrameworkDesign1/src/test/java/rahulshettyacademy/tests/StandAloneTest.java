@@ -1,4 +1,4 @@
-package myframework.SeleniumFrameworkDesign1;
+package rahulshettyacademy.tests;
 
 import java.time.Duration;
 import java.util.List;
@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import myframework.PageObjects.LandingPage;
 
 public class StandAloneTest {
 
@@ -27,6 +28,8 @@ public class StandAloneTest {
 		driver.manage().window().maximize();
 		
 		driver.get("https://rahulshettyacademy.com/client");
+		
+		LandingPage landingPage = new LandingPage(driver);                                     // This is done only for using driver in Landing page class
 		
 		driver.findElement(By.id("userEmail")).sendKeys("ecommerce1@gmail.com");
 		driver.findElement(By.id("userPassword")).sendKeys("Rahul@123");
