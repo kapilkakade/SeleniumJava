@@ -20,7 +20,7 @@ import myframework.PageObjects.ConfirmationPage;
 import myframework.PageObjects.LandingPage;
 import myframework.PageObjects.ProductCatalogue;
 
-public class SubmitOrderTest {
+public class SubmitOrderTest1 {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub

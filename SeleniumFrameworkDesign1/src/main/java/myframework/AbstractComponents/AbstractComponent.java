@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import myframework.PageObjects.CartPage;
+import myframework.PageObjects.OrderPage;
 
 public class AbstractComponent {
 
@@ -61,6 +62,17 @@ public class AbstractComponent {
 		
 	}
 	
+	
+	@FindBy(css = "[routerlink*='myorders']")
+	WebElement orderHeader;
+	public OrderPage goToOrdersPage() {
+		
+		orderHeader.click();
+		
+		OrderPage orderPage = new OrderPage(driver);
+		return orderPage;
+		
+	}
 	
 	
 	
