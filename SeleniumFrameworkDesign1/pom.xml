@@ -48,6 +48,11 @@
   		<artifactId>JavaStreamDemo</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
+  	<dependency>
+  		<groupId>rsa</groupId>
+  		<artifactId>Automation</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 
   <build>

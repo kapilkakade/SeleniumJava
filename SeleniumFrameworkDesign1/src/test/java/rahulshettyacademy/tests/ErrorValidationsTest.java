@@ -15,12 +15,12 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import myframework.AbstractComponents.AbstractComponent;
-import myframework.PageObjects.CartPage;
-import myframework.PageObjects.CheckoutPage;
-import myframework.PageObjects.ConfirmationPage;
-import myframework.PageObjects.LandingPage;
-import myframework.PageObjects.ProductCatalogue;
+import rahulshettyacademy.AbstractComponents.AbstractComponent;
+import rahulshettyacademy.PageObjects.CartPage;
+import rahulshettyacademy.PageObjects.CheckoutPage;
+import rahulshettyacademy.PageObjects.ConfirmationPage;
+import rahulshettyacademy.PageObjects.LandingPage;
+import rahulshettyacademy.PageObjects.ProductCatalogue;
 import rahulshettyacademy.TestComponents.BaseTest;
 
 public class ErrorValidationsTest extends BaseTest {
@@ -29,7 +29,7 @@ public class ErrorValidationsTest extends BaseTest {
 	public void LoginErrorValidation() throws IOException, InterruptedException {
 
 		String productName = "ZARA COAT 3";
-		landingPage.loginApplication("ecommerce1@gmail.com", "slkdfslfdknl");
+		landingPage.loginApplication("ecommerce1@gmail.com", "Rahul@123");
 		Assert.assertEquals("Incorrect email or password.", landingPage.getErrorMessage());
 		System.out.println("Pass");
 	}
