@@ -1,4 +1,4 @@
-package myframework.PageObjects;
+package rahulshettyacademy.PageObjects;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import myframework.AbstractComponents.AbstractComponent;
+import rahulshettyacademy.AbstractComponents.AbstractComponent;
 
 public class ProductCatalogue extends AbstractComponent {
 

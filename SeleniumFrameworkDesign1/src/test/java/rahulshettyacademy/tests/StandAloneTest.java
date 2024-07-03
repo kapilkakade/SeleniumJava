@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import myframework.PageObjects.LandingPage;
+import rahulshettyacademy.PageObjects.LandingPage;
 
 public class StandAloneTest {
 
